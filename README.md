@@ -1,10 +1,10 @@
 # CUENTAS
 Desarrollar un programa que conste de una clase padre **Cuenta** y dos subclases **PlazoFijo** y **CajaAhorro**.
-Definir los atributos *titular* y *cantidad* que seran recibidos en el metodo \_\_init\_\_, y el método para imprimir los datos en la clase **Cuenta** (\_\_str\_\_). ej. "Titular de la cuenta: Pedro. Cantidad: 100.0"
+Definir los atributos *titular* y *cantidad* que seran recibidos en el metodo \_\_init\_\_, y el método para imprimir los datos en la clase **Cuenta** (\_\_str\_\_La salida debe ser: "Titular de la cuenta: Pedro. Cantidad: 100.0"
 
-La clase **CajaAhorro** tendrá un método llamado **porcentajeAhorro** que recibe un monto original y devuelve el porcentaje ahorrado. ej. Si la cuenta tiene 100 de monto y el metodo recibe 500 el ahorro es del "20%"
+La clase **CajaAhorro** tendrá un método llamado **porcentajeAhorro** que recibe un monto original y devuelve el porcentaje ahorrado. ej. Si la cuenta tiene 100 de monto y el metodo recibe 500 el método debe retornar la cadena "20%"
 
-La clase **PlazoFijo** tendrá dos atributos propios, *plazo* e *interés*. Tendrá un método para obtener el importe del interés (*cantidad* * interés / 100)
+La clase **PlazoFijo** tendrá dos atributos propios, *plazo* e *interés*. Tendrá un método para *obtener_importe_interes* (*cantidad* * interés / 100)
 y otro método para mostrar la información, datos del titular, plazo, interés y total de interés. ej. "Titular: Adan. Plazo: 100. Interés: 0.15. Total de interés: 15"
 
 PD> CUIDE QUE LOS NOMBRES DE LAS CLASES, METODOs, ATRIBUTOS Y ARCHIVOS SEAN TAL CUAL SE INSTRUYEN
