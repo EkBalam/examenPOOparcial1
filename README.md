@@ -4,8 +4,9 @@ Definir los atributos *titular* y *cantidad* que seran recibidos en el metodo \_
 
 La clase **CajaAhorro** tendrá un método llamado **porcentajeAhorro** que recibe un monto original y devuelve el porcentaje ahorrado. ej. Si la cuenta tiene 100 de monto y el metodo recibe 500 el método debe retornar la cadena "20.0%"
 
-La clase **PlazoFijo** tendrá dos atributos propios, *plazo* e *interés*. Tendrá un método para *obtener_importe_interes* (*cantidad* * interés / 100)
-y otro método para mostrar la información (\_\_str\_\_), datos del titular, plazo, interés y total de interés. ej. "Titular: Adan. Plazo: 100. Interés: 0.15. Total de interés: 15"
+La clase **PlazoFijo** tendrá dos atributos propios, *plazo* e *interés*. Tendrá un método para *obtener_importe_interes* (*cantidad* * interes / 100)
+y otro método para mostrar la información (\_\_str\_\_), datos del titular, plazo, interés y total de interés. ej. "Titular: Adan. Plazo: 1mes. Interés: 0.15. Total de interés: 15"
+plazo es str y interes es float
 
 PD> CUIDE QUE LOS NOMBRES DE LAS CLASES, METODOs, ATRIBUTOS Y ARCHIVOS SEAN TAL CUAL SE INSTRUYEN, RECUERDE CLASE POR ARCHIVO, Y EL ARCHIVO NOMBRADO COMO LA CLASE
 
