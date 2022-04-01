@@ -7,13 +7,11 @@ La clase **CajaAhorro** tendrá un método llamado **porcentajeAhorro** que reci
 La clase **PlazoFijo** tendrá dos atributos propios, *plazo* e *interés*. Tendrá un método para *obtener_importe_interes* (*cantidad* * interés / 100)
 y otro método para mostrar la información (\_\_str\_\_), datos del titular, plazo, interés y total de interés. ej. "Titular: Adan. Plazo: 100. Interés: 0.15. Total de interés: 15"
 
-PD> CUIDE QUE LOS NOMBRES DE LAS CLASES, METODOs, ATRIBUTOS Y ARCHIVOS SEAN TAL CUAL SE INSTRUYEN
+PD> CUIDE QUE LOS NOMBRES DE LAS CLASES, METODOs, ATRIBUTOS Y ARCHIVOS SEAN TAL CUAL SE INSTRUYEN, RECUERDE CLASE POR ARCHIVO, Y EL ARCHIVO NOMBRADO COMO LA CLASE
 
 ### Setup command
 `sudo -H pip3 install pytest`
 
 ### Run command
-`pytest`
-
-### Notes
-- pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
+Este Ejercicio tiene mas de una prueba si quieres probar por archivo especificalo en el comando
+`pytest test_[el que quieras probar] ` 
