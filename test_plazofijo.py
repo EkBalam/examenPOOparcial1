@@ -4,7 +4,7 @@ def test_titular():
     c = PlazoFijo('Juan', 300.0, '1mes', 0.15)
     assert c.titular == 'Juan'
 
-def test_porcentajeAhorro():
+def test_obtener_importe_interes():
     c = PlazoFijo('Juan', 300.0, '1mes', 0.15)
     assert c.obtener_importe_interes() == 45
 
